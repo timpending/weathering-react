@@ -1,0 +1,15 @@
+$space-large: 2.5rem;
+$page-title: rgba(23, 121, 186, 1);
+
+.page-title {
+  margin: $space-large 0 $space-large 0;
+  color: $page-title
+}
+
+.page-subtitle{
+  margin: $space-large 0 $space-large 0;
+}
+
+input[type=search] {
+  box-shadow: none;
+}

@@ -3,10 +3,10 @@ const React = require('react');
 var About = (props) => {
   return (
     <div>
-      <div className="text-centered">
-        <h3>About</h3>
+      <div>
+        <h3 className="page-title text-center">About</h3>
         <p>This is a weather app built on React.  I've been building this using a Udemy course</p>
-        <p>Here are some of the tools I've used</p>
+        <p>Here are some of the tools I've used:</p>
         <ul>
           <li>
             <a href="https://facebook.github.io/react/">React Page</a> JS Framework used to create this project.
